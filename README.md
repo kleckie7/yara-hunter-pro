@@ -15,7 +15,7 @@ Automated YARA 4.5.4 scanner with VirusTotal enrichment and **interactive Plotly
 - Native macOS + Docker support
 
 ### Demo
-![Dashboard](reports/yara_hunter_report.html)
+![Dashboard](reports/yara_hunter_report.png)
 
 ### Run in 60 Seconds
 ```bash
@@ -24,4 +24,5 @@ cd yara-hunter-pro
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ./main.py
+
 
