@@ -1,0 +1,1 @@
+rule ransomware { strings: $s1 = "encrypt" ascii; $s2 = "ransom" wide; condition: all of them }
