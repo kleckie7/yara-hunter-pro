@@ -1,4 +1,4 @@
-Live Dashboard Demo → [Click to view full interactive report](reports/yara_hunter_report.html)
+Live Dashboard Demo → [Click to view full interactive report](reports/yara_hunter_report.png)
 ![YARA](https://img.shields.io/badge/YARA-4.5.4-blue)
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-native-black?style=flat&logo=apple)
@@ -25,6 +25,7 @@ cd yara-hunter-pro
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ./main.py
+
 
 
 
