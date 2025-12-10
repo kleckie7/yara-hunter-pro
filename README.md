@@ -10,7 +10,7 @@ Automated malware scanner using **YARA 4.5.4** with real-time **VirusTotal enric
 
 ### Live Demo
 ![Dashboard Screenshot](reports/yara_hunter_report.png)  
-→ [Open full interactive HTML report](https://raw.githubusercontent.com/kleckie7/yara-hunter-pro/main/reports/yara_hunter_report.html){target="_blank"}
+→ [Open full interactive HTML report](https://raw.githubusercontent.com/kleckie7/yara-hunter-pro/main/reports/yara_hunter_report.html)
 
 ### Features
 - Real YARA 4.5.4 rule matching (EICAR, LockBit, Emotet, Clop, PowerShell, etc.)
@@ -69,3 +69,4 @@ read -p "Paste your VT API key → " vtkey && echo "VIRUSTOTAL_API_KEY=$vtkey" >
 chmod +x main.py
 ./main.py
 # → Interactive dashboard opens automatically
+
