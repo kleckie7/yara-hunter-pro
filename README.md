@@ -27,10 +27,10 @@ cd yara-hunter-pro
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ./main.py
-
-
-
-# 1. Create project folder
+→ The tool scans the samples/ folder and automatically opens the interactive dashboard.
+Full Step-by-Step Build Guide (100% Verified – December 2025)
+Tested on macOS Sonoma / Sequoia / Ventura (Apple Silicon + Intel).
+Bash# 1. Create project folder
 mkdir -p ~/Documents/yara-hunter-pro && cd ~/Documents/yara-hunter-pro
 
 # 2. Initialize git
@@ -69,4 +69,3 @@ read -p "Paste your VT API key → " vtkey && echo "VIRUSTOTAL_API_KEY=$vtkey" >
 chmod +x main.py
 ./main.py
 # → Interactive dashboard opens automatically
-
