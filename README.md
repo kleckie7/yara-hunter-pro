@@ -18,6 +18,30 @@ Automated YARA 4.5.4 scanner with VirusTotal enrichment and **interactive Plotly
 ### Demo
 ![Dashboard](reports/yara_hunter_report.png)
 
+# YARA Hunter Pro – macOS-native Malware Scanner & Interactive Dashboard
+
+Automated YARA 4.5.4 scanner with VirusTotal enrichment and a fully interactive dark-mode Plotly dashboard.
+
+### Live Demo
+![Interactive Dashboard](reports/yara_hunter_report.png)  
+→ [Click for full interactive HTML report](reports/yara_hunter_report.html)
+
+### Features
+- Real YARA 4.5.4 rule matching (EICAR, LockBit, Emotet, Clop, PowerShell, etc.)
+- Optional VirusTotal API enrichment (free tier works perfectly)
+- Interactive HTML dashboard with heatmaps, tables, bar charts, and pie charts
+- 100% macOS native (Apple Silicon + Intel) – runs in one command
+- Docker-ready
+
+### Run in 60 Seconds (macOS)
+
+```bash
+git clone https://github.com/kleckie7/yara-hunter-pro.git
+cd yara-hunter-pro
+python3 -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+./main.py
+
 ### Run in 60 Seconds
 ```bash
 git clone https://github.com/kleckie7/yara-hunter-pro.git
@@ -25,6 +49,7 @@ cd yara-hunter-pro
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ./main.py
+
 
 
 
