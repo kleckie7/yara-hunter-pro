@@ -10,7 +10,7 @@ Automated malware scanner using **YARA 4.5.4** with real-time **VirusTotal enric
 
 ### Live Demo
 ![Dashboard Screenshot](reports/yara_hunter_report.png)  
-→ [Open full interactive HTML report](reports/yara_hunter_report.html)
+→ → [Open full interactive HTML report](https://raw.githubusercontent.com/kleckie7/yara-hunter-pro/main/reports/yara_hunter_report.html)
 
 ### Features
 - Real YARA 4.5.4 rule matching (EICAR, LockBit, Emotet, Clop, PowerShell, etc.)
@@ -27,3 +27,4 @@ cd yara-hunter-pro
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 ./main.py
+
